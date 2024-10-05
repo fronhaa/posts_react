@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    margin-top: 35px;
+    gap: 15px;
+}
+
+.containerContent {
+    display: block;
+    width: 100%;
+}
+
+.content {
+    background-color: var(--gray-600);
+    border-radius: 9px;
+    padding: 15px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content span {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}
+
+.trash {
+    display: flex;
+    justify-content: space-between;
+}
+
+.applaud {
+    display: flex;
+    gap: 5px;
+    margin-top: 15px;
+}
